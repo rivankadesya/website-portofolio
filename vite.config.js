@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
   // Jika menggunakan GitHub Pages dengan repo name, set ke "/repo-name/"
   const base = env.VITE_REPO_NAME ? `/${env.VITE_REPO_NAME}/` : "/";
   return {
-    base: base,
+    base: "/website-portofolio",
     plugins: [
       react({
         // Enable Fast Refresh (Hot Reload)
